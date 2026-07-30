@@ -1,7 +1,13 @@
     /* =====================================================
     RESET
     ===================================================== */
+.hero-desktop{
+    display:block;
+}
 
+.hero-mobile{
+    display:none;
+}
     *{
     margin:0;
     padding:0;
@@ -2202,7 +2208,17 @@ border-color:#111;
     ========================================== */
 
     @media (max-width:768px){
+.hero-desktop{
 
+    display:none;
+
+}
+
+.hero-mobile{
+
+    display:block;
+
+}
     .hero{
 
     min-height:auto;
